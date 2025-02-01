@@ -92,7 +92,7 @@ function Auth() {
                                             w-full data-[state=active]:text-black data-[state=active]:font-semibold
                                          data-[state=active]:border-b-purple-500 p-3 transition-all duration-300'>Signup</TabsTrigger>
                             </TabsList>
-                            <TabsContent className='flex flex-col gap-5 mt-10' value='login'>
+                            <TabsContent className='flex flex-col gap-5 mt-8' value='login'>
                                 <Input placeholder='Email' type='email' className='rounded-full p-6 focus:outline-none' value={email} onChange={e => setEmail(e.target.value)} />
                                 <Input placeholder='Password' type='password' className='rounded-full p-6 focus:outline-none' value={password} onChange={e => setPassword(e.target.value)} />
                                 <Button className='rounded-full p-6' onClick={handleLogin}>Login</Button>
@@ -107,7 +107,7 @@ function Auth() {
                     </div>
                 </div>
                 <div className='hidden xl:flex justify-center items-center'>
-                    <img src={Background} alt="loginImg" className='h-[613px]' />
+                    <img src={Background} alt="loginImg" className='h-[553px]' />
                 </div>
             </div>
         </div>
